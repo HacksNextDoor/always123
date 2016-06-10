@@ -1,7 +1,7 @@
 #Saint George Learning Center
 www.always123.com
 
-####Things Todo:
+####Things To do:
 - [ ] Make navbar buttons/pages - Crayons
 - [ ] Create homepage (index.html) and incorporate the following information
 	- Program Name – St. George Early Learning
