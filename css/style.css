@@ -92,6 +92,7 @@ footer.page-footer {
 /* navBar */
 .logo{
   padding-top: 3px;
+  width: 10%
 }
 
 .h-logo{
@@ -99,6 +100,7 @@ footer.page-footer {
 }
 
 .menu-item{
+  height: 0px;
   width: 20%;
 }
 
@@ -114,4 +116,8 @@ footer.page-footer {
 .nav-img{
   height: 35.7 !important;
   width: 149.6 !important;
+}
+
+.parallax-container {
+      height: 675px;
 }
