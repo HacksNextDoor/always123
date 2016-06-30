@@ -53,6 +53,7 @@
   </nav>
   <!-- /NavBar -->
 
+  <!-- Mission -->
   <div class="parallax-container">
      <div class="section">
        <div class="container">
@@ -87,14 +88,28 @@
        </div>
 
      </div>
+  <!--/Mission-->
 
-
-
+  <!--Information-->
+  <div id="map"></div>
+  <script>
+  function initMap() {
+      var mapDiv = document.getElementById('map');
+      var map = new google.maps.Map(mapDiv, {
+          center: {lat: 44.540, lng: -78.546},
+          zoom: 8
+      });
+    }
+  </script>
+  <!--/Information-->
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script async defer
+       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBNYSMaPPymkaBdqj45Kg56d4DRaugD8U&callback=initMap">
+   </script>
 
   </body>
 </html>

@@ -123,6 +123,11 @@ footer.page-footer {
 
 /*colors*/
 .st-blue{
-
   background-color: #283278;
+}
+
+/*maps*/
+#map {
+  width: 100%;
+  height: 400px;
 }
