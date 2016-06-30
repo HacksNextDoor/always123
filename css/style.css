@@ -126,6 +126,15 @@ footer.page-footer {
   background-color: #283278;
 }
 
+.st-blue-font{
+  color: #283278;
+}
+
+.addr{
+  margin-top: 4px;
+  margin-bottom: 0px; 
+}
+
 /*maps*/
 #map {
   width: 100%;
