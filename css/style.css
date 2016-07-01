@@ -119,6 +119,10 @@ footer.page-footer {
   width: 149.6 !important;
 }
 
+.nav-hamburger{
+  margin-top: 15px;
+}
+
 .parallax-container {
       height: 675px;
 }
