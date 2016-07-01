@@ -2,8 +2,8 @@
 www.always123.com
 
 ####Things To do:
-- [ ] Make navbar buttons/pages - Crayons
-- [ ] Create homepage (index.html) and incorporate the following information
+- [X] Make navbar buttons/pages - Crayons
+- [X] Create homepage (index.html) and incorporate the following information
 	- Program Name – St. George Early Learning
 	- Address – Address 80 Bay street, Saten Island, NY 10301; 718-815-4701, 
 	- Hours of Operation – Monday to Friday 7 am to 6 pm a map, About us, picture of the building
