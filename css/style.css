@@ -100,7 +100,8 @@ footer.page-footer {
 
 .menu-item{
   height: 0px;
-  width: 20%;
+  padding-top: 20px;
+  padding-right: 10px;
 }
 
 .menu-item-r{
@@ -109,7 +110,7 @@ footer.page-footer {
 .menu-item-l{}
 
 #nav{
-  height: 70px;
+  height: 90px;
 }
 
 .nav-img{
@@ -132,7 +133,7 @@ footer.page-footer {
 
 .addr{
   margin-top: 4px;
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
 }
 
 /*maps*/
