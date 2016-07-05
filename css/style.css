@@ -100,7 +100,7 @@ footer.page-footer {
 
 .menu-item{
   height: 0px;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-right: 10px;
 }
 
@@ -110,7 +110,7 @@ footer.page-footer {
 .menu-item-l{}
 
 #nav{
-  height: 90px;
+  height: 110px;
 }
 
 .nav-img{
