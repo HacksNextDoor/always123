@@ -135,7 +135,11 @@ footer.page-footer {
 
 /*colors*/
 .st-blue{
-  background-color: #283278;
+  background-color: #283278 !important;
+}
+
+.st-footer{
+  padding: 10px
 }
 
 .st-blue-font{
