@@ -99,9 +99,11 @@ footer.page-footer {
 }
 
 .menu-item{
-  height: 0px;
-  padding-top: 30px;
-  padding-right: 5px;
+
+}
+
+.menu-a {
+  height: 110px;
 }
 
 .menu-item-r{
@@ -114,9 +116,13 @@ footer.page-footer {
 }
 
 .nav-img{
-  margin-top: 5px;
+  margin-top: 33px;
   height: 35.7 !important;
   width: 149.6 !important;
+}
+
+.logo-img{
+  margin-top: 5px;
 }
 
 .nav-hamburger{
@@ -129,7 +135,11 @@ footer.page-footer {
 
 /*colors*/
 .st-blue{
-  background-color: #283278;
+  background-color: #283278 !important;
+}
+
+.st-footer{
+  padding: 10px
 }
 
 .st-blue-font{

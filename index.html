@@ -11,39 +11,83 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <!-- NavBar -->
-  <nav id="nav" class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a href="#" class="brand-logo">
-        <img class="nav-img" src="img/stgel_logo@2x.png" alt="red" height="100" width="100">
-      </a>
-      <ul class="hide-on-med-and-down right">
-        <li class="menu-item">
-            <a href="views/about.html">
-              <img class="nav-img" src="img/red_Crayon.png" alt="red" height="33.6" width="140.8"></a>
-        </li>
-        <li class="menu-item">
-            <a href="views/programs.html">
-              <img class="nav-img" src="img/yellow_Crayon.png" alt="red" height="33.6" width="140.8"></a>
-        </li>
-        <li class="menu-item">
-          <a href="views/calendar.html">
-            <img class="nav-img" src="img/Aqua_Crayon.png" alt="red" height="33.6" width="140.8"></a>
-        </li>
-        <li class="menu-item">
-          <a href="views/forms.html">
-            <img class="nav-img" src="img/orange_Crayon.png" alt="red" height="33.6" width="140.8"></a>
-        </li>
-      </ul>
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="views/about.html">About Us</a></li>
-        <li><a href="views/programs.html">Program</a></li>
-        <li><a href="views/calendar.html">Calendar</a></li>
-        <li><a href="views/forms.html">Forms</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse "><i class="material-icons nav-hamburger">menu</i></a>
-    </div>
-  </nav>
+
+
+  <!-- Dropdown Structure -->
+  <ul id="programs-dropdown" class="dropdown-content">
+    <li><a href="#!">Infant</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">Toddler</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">Preschool</a></li>
+  </ul>
+
+    <!-- NavBar -->
+    <nav id="nav" class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo">
+          <img class="logo-img" src="img/stgel_logo@2x.png" alt="red" height="100" width="100">
+        </a>
+        <ul class="hide-on-med-and-down right">
+          <li class="menu-item">
+              <a class="menu-a frame" href="about.html">
+                <img class="nav-img" src="img/red_Crayon.png" alt="red" height="33.6" width="140.8"></a>
+          </li>
+          <!-- Programs Dropdown -->
+          <li class="menu-item">
+            <a class="dropdown-button menu-a" href="#!" data-activates="programs-dropdown">
+                <img class="nav-img" src="img/yellow_Crayon.png" alt="red" height="33.6" width="140.8"></a>
+            </a>
+          </li>
+          <li class="menu-item">
+              <a class="menu-a" href="#!" href="calendar.html">
+                <img class="nav-img" src="img/Aqua_Crayon.png" alt="red" height="33.6" width="140.8">
+              </a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-a" href="forms.html">
+              <img class="nav-img" src="img/orange_Crayon.png" alt="red" height="33.6" width="140.8"></a>
+          </li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+            <!--About Us-->
+            <li class="bold"><a href="index.html" class="waves-effect waves-teal active">About Us</a></li>
+            <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                <!--Programs-->
+                <li class="bold"><a class="collapsible-header waves-effect waves-teal">Programs</a>
+                  <div class="collapsible-body" style="">
+                    <ul>
+                      <li><a href="views/infant.html">Infant</a></li>
+                      <li><a href="views/toddler.html">Toddler</a></li>
+                      <li><a href="views/preschool.html">Preschool</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- Calendar -->
+                <li class="bold"><a class="collapsible-header waves-effect waves-teal">Calendar</a>
+                  <!-- <div class="collapsible-body" style="">
+                    <ul>
+                      <li><a href="badges.html">Badges</a></li>
+                    </ul>
+                  </div> -->
+                </li>
+                <!-- Forms -->
+                <li class="bold"><a class="collapsible-header waves-effect waves-teal">Forms</a>
+                  <div class="collapsible-body" style="">
+                    <ul>
+                      <li><a href="collapsible.html">Form1</a></li>
+                      <li><a href="dialogs.html">Form2</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse "><i class="material-icons nav-hamburger">menu</i></a>
+      </div>
+    </nav>
   <!-- /NavBar -->
 
   <!-- Banner -->
@@ -156,4 +200,18 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBNYSMaPPymkaBdqj45Kg56d4
 </script>
 
 </body>
+
+<footer class="st-blue st-footer">
+  <div class="footer-copyright">
+            <div class="container white-text">
+              Built next door.
+            </div>
+            <div class="container white-text">
+            © 2015-16 St. George Learning Center, All rights reserved.
+            </div>
+          </div>
+</footer>
+
+
+
 </html>
