@@ -153,6 +153,14 @@ footer.page-footer {
 
 .btn-dir{
   font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.icon-blk-st{
+  padding: 0px !important;
+
 }
 
 /*maps*/
