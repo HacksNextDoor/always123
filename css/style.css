@@ -164,3 +164,8 @@ footer.page-footer {
   padding: 25px 25px;
   margin: 0px 235px;
 }
+
+.form-link {
+  font-size: 18px;
+  padding: 10px 0px;
+}
