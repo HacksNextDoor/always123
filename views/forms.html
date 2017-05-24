@@ -77,10 +77,12 @@
         <div class="card">
           <div class="card-content">
             <div class="row">
+
               <form class="col s12">
                 <div class="row">
+                  <h5 style="padding: 10px 0;">Schedule a Tour<h5>
                   <div class="input-field col s6">
-                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                    <input id="first_name" type="text" class="validate">
                     <label for="first_name">First Name</label>
                   </div>
                   <div class="input-field col s6">
@@ -94,21 +96,48 @@
                     <label for="email">Email</label>
                   </div>
                 </div>
-              </form>
-            </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="telephone" type="tel" class="validate">
+                    <label for="telephone">Telephone</label>
+                  </div>
+                </div>
+                </form>
+              </div>
          </div>
          <div class="card-action">
-           <a href="#">Submit</a>
+           <a href="#" onclick="registerEmail()">Email</a>
          </div>
        </div>
      </div>
    </div>
-
-
   </div>
+
+
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 <script src="../js/materialize.js"></script>
+<script>
+$('.datepicker').pickadate({
+  selectMonths: true, // Creates a dropdown to control month
+  selectYears: 15 // Creates a dropdown of 15 years to control year
+});
+
+function registerEmail() {
+    console.log('hacking this thing together')
+    const name = $('#first_name').val() + ' ' + $('#last_name').val();
+    const telephone = $('#telephone').val();
+    const email = $('#email').val();
+    console.log(name);
+    console.log(email);
+    console.log(telephone);
+
+    const mailto = `mailto:alwayz1237@gmail.com?subject=Setup%20Tour%20for%20St.%20George%20Learning%20Center&body=${name}%20would%20like%20to%20schedule%20a%20tour%20at%20St.%20George%20Learning%20Center.%0A%0ATelephone%3A%20${telephone}%0AEmail%3A%20${email}`;
+    window.open(mailto, '_blank');
+}
+
+</script>
 <script src="../js/init.js"></script>
 
 </body>
