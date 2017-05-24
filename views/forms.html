@@ -55,9 +55,9 @@
     </div>
   </nav>
   <!-- /NavBar -->
-  <div style="margin: 0px 235px;">
-  <h4>Forms</h4>
-    <ul>
+  <h4 style="margin: 0px 235px; padding: 20px 0;">Forms</h4>
+  <div style="margin: 0px 235px; display:flex; flex-direction: row;">
+    <ul style="width:50%;">
       <li>
         <a class="form-link" href="../forms/Cummulative.pdf">Cummlative</a>
       </li>
@@ -71,6 +71,40 @@
         <a class="form-link" href="../forms/Supply_List.doc">Supply List</a>
       </li>
     </ul>
+
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+         </div>
+         <div class="card-action">
+           <a href="#">Submit</a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
   </div>
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

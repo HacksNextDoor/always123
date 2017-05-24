@@ -166,6 +166,7 @@ footer.page-footer {
 }
 
 .form-link {
+  width: 50%;
   font-size: 18px;
   padding: 10px 0px;
 }
