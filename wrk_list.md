@@ -1,0 +1,8 @@
+- [X] Remove getting started btn
+- [ ] Update the program pages
+  - [X] infant
+  - [X] toddler
+  - [ ] preschool
+- [ ] Remove email from the top of the calendar page
+- [ ] Add new calendar for annual holidays (permissions problem)
+- [ ] Change image for the landing page
