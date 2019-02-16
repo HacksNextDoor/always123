@@ -1,6 +1,6 @@
 - [X] Remove getting started btn
 - [ ] Update the program pages
-  - [ ] infant
+  - [X] infant
   - [ ] toddler
   - [ ] preschool
 - [ ] Remove email from the top of the calendar page
